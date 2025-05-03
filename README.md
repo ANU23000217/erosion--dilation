@@ -24,7 +24,10 @@ End the program.
 ## Program:
 
 ```
-#exp-9-Erosion & Dilation
+# Developed By: ANU RADHA N
+# Register No: 212223230018
+
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
