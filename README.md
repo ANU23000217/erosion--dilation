@@ -32,7 +32,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 # Load the image
-img1=np.zeros((100,500),dtype='uint8')
+img1=np.zeros((100,700),dtype='uint8')
 font=cv2.FONT_HERSHEY_COMPLEX_SMALL
 
 # Create the text using cv2.putText
@@ -59,7 +59,15 @@ plt.imshow(img_erode,cmap='gray')
 ```
 ## Output:
 
-![image](https://github.com/user-attachments/assets/403c494d-4dbf-4158-a8fd-084984b67162)
+### Display the input Image:
+![image](https://github.com/user-attachments/assets/108de595-dba4-4517-8cf7-93bcc2214307)
+
+
+### Display the Eroded Image:
+![image](https://github.com/user-attachments/assets/ae0701d4-887b-40b0-8d4b-f6013eb06bce)
+
+### Display the Dilated Image:
+![image](https://github.com/user-attachments/assets/e601dbe5-d74e-47de-a92d-0b66fea88d84)
 
 
 ## Result
